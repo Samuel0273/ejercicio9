@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <div class="map">
+        <h1>Registro de OSDeDA (Obra Social De Desarrolladores)</h1>
+        <a href="tel:">Tel:9703726385</a>
+        <a href="mailto:">Email:contacto@osdeda.com</a>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.6712788072427!2d-76.54381689096488!3d3.4299601513510014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a69bc40cba09%3A0x4ac54a6d820c91bf!2sEstadio%20Ol%C3%ADmpico%20Pascual%20Guerrero!5e0!3m2!1ses-419!2sco!4v1684344412543!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="form">
+    <form action="./assets/show_data.html" method="get">
+    <fieldset>
+        <legend>Sign up</legend>
+        <label for="name"></label>
+        <input class="cajon1y2" type="text" id="name" name="name" placeholder="Full Name">
+        
+        <div>
+            <label for="Email"></label>
+            <input class="cajon1y2" type="text" id="Email" name="Email" placeholder="Email">
+        </div>
+        <div class="select">
+            <select name="Gender" id="Gender">
+            <option disabled selected>Gender</option>
+            <option>Men</option>
+            <option>Women</option>
+            </select>
+        </div>
+
+        <div class="form2">
+            <p>Skills</p>
+            <label for="Html">Html</label>
+            <input type="checkbox" id="Html" name="Skills" value="Html">
+            <label for="Css">Css</label>
+            <input type="checkbox" id="Css" name="Skills" value="css">
+            <label for="Js">Js</label>
+            <input type="checkbox" id="Js" name="Skills" value="Js">
+        </div>
+
+        <label for="text"></label>
+        <input class="cajon3" type="text" id="text" name="comment" placeholder="Message">
+        <div>
+            <input type="Submit" value="Submit" id="button">
+        </div>
+    </fieldset>
+    </form>
+    </div>
+</body>
+</html>
